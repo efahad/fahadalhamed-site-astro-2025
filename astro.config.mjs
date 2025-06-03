@@ -1,12 +1,8 @@
-import { defineConfig } from 'astro/config';
 import tailwind from "@astrojs/tailwind";
+import netlify from "@astrojs/netlify";
 
-export default defineConfig({
+export default {
   integrations: [tailwind()],
-  site: "https://fahadalhamed.netlify.app",
-  markdown: {
-    shikiConfig: {
-      theme: "github-dark",
-    },
-  },
-});
+  output: "static",
+  adapter: netlify(),
+};
