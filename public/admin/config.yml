@@ -1,8 +1,12 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: efahad/fahadalhamed-site-astro-2025
   branch: main
+  auth_scope: repo
+
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
+
 collections:
   - name: "blog"
     label: "Blog"
