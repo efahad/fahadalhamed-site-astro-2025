@@ -3,6 +3,25 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="فهد الحامد">
-  <h1 class="text-3xl font-bold text-blue-600">مرحبًا بك في موقعي</h1>
-  <p>هذا مثال لموقع شخصي مبني باستخدام Astro.</p>
+  <section class="text-center space-y-6">
+    <h1 class="text-4xl font-bold text-primary">أهلًا بكم في موقعي الشخصي</h1>
+    <p class="text-lg max-w-xl mx-auto">أنا فهد الحامد، خبير تقني وفكري أعمل عند تقاطع الحوسبة السحابية، التحول الرقمي، والابتكار المجتمعي.</p>
+    <a href="/about" class="inline-block px-6 py-3 bg-primary text-white rounded-xl shadow hover:bg-primary-dark transition">اعرف أكثر عني</a>
+  </section>
+
+  <section class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="border p-4 rounded-xl shadow hover:shadow-lg transition">
+      <h2 class="text-xl font-bold text-primary">المدونة</h2>
+      <p class="text-sm text-gray-600">مقالات وتأملات في التقنية والتحول الرقمي.</p>
+      <a href="/blog" class="text-primary mt-2 inline-block">عرض المقالات →</a>
+    </div>
+    <div class="border p-4 rounded-xl shadow hover:shadow-lg transition">
+      <h2 class="text-xl font-bold text-primary">أعمالي</h2>
+      <p class="text-sm text-gray-600">مبادرات ومشاريع ذات أثر رقمي ومجتمعي.</p>
+    </div>
+    <div class="border p-4 rounded-xl shadow hover:shadow-lg transition">
+      <h2 class="text-xl font-bold text-primary">تواصل معي</h2>
+      <p class="text-sm text-gray-600">تابعني على المنصات الاجتماعية أو تواصل بالبريد.</p>
+    </div>
+  </section>
 </Layout>
