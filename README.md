@@ -1,1 +1,3 @@
-# fahadalhamed-site-astro-2025
+# Fahad Alhamed Astro Site
+
+Instructions will be added after deployment.
